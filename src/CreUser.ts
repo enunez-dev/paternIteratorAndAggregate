@@ -5,6 +5,6 @@ export class UserData {
     public payment: number,
   ) {}
 }
-export class GoogleUser {
+export class CreUser {
   constructor(public id: number, public userData: UserData) {}
 }
